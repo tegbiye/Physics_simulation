@@ -11,7 +11,7 @@ WHITE = (255,255,255)
 # Width and Height
 WIDTH, HEIGHT = 640, 480
 
-Bouncing.bouncing_ball.__init__(BLACK, WHITE, WIDTH, HEIGHT)
+Bouncing.bouncing_ball.__init__(self, BLACK, WHITE, WIDTH, HEIGHT)
 pygame.display.set_caption('Bouncing Ball SImulation')
 
 Bouncing.bouncing_ball()
