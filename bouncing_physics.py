@@ -11,7 +11,7 @@ class Bouncing:
     self.ballx, self.bally = 0, 0
     self.vx, self.vy = 1, 1
     
-  def bouncing_ball(self):
+  def bouncing_ball(self,pygame):
     while True:
       self.screen.fill(self.col1)
       for self.event in pygame.event.get():
