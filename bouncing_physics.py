@@ -1,12 +1,12 @@
 #function which does the logic for the simple collission
 # using pygame module
 class Bouncing:
-  def __init__(self, col1, col2, wid, height):
+  def __init__(self, col1, col2, wid, height, screen):
     self.col1 = col1
     self.col2 = col2
     self.wid = wid
     self.height = height
-    self.screen = pygame.display.set_mode((self.wid, self.height))
+    self.screen = screen
     
     self.ballx, self.bally = 0, 0
     self.vx, self.vy = 1, 1
