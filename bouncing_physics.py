@@ -9,7 +9,7 @@ class Bouncing:
     self.screen = screen
     
     self.ballx, self.bally = 0, 0
-    self.vx, self.vy = 1, 1
+    self.vx, self.vy = 0.5, 0.5
     
   def bouncing_ball(self,pygame,sys):
     while True:
