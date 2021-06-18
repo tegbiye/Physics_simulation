@@ -18,9 +18,8 @@ pygame.display.set_caption('Bouncing Ball SImulation')
 # main loop
 
 
-bouncing_physics.bouncing_ball(BLACK, WHITE, WIDTH, HEIGHT, screen)
-
 bouncing_ball(BLACK, WHITE, WIDTH, HEIGHT, screen)
+
 
 
 #function which does the logic for the simple collission
