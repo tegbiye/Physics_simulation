@@ -17,10 +17,4 @@ pygame.display.set_caption('Bouncing Ball SImulation')
 
 # main loop
 
-while True:
-  for event in pygame.event.get():
-    if event.type == pygame.QUIT:
-      pygame.quit()
-      sys.exit()
-  pygame.display.update()
-  
+bouncing_ball(BLACK, WHITE, WIDTH, HEIGHT, screen)
