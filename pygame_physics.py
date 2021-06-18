@@ -1,11 +1,19 @@
 
 import pygame, sys
-
+import bouncing_physics
 pygame.init()
 
-screen = pygame.display.set_mode((400,300))
+#Colors
+BLACK = (0,0,0)
+WHITE = (255,255,255)
 
-pygame.display.set_caption('Hello World')
+# Width and Height
+WIDTH, HEIGHT = 640, 480
+
+
+screen = pygame.display.set_mode((WIDTH,HEIGHT))
+
+pygame.display.set_caption('Bouncing Ball SImulation')
 
 # main loop
 
