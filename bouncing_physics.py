@@ -18,11 +18,11 @@ class Bouncing:
         if self.event.type == pygame.QUIT:
           pygame.quit()
           sys.exit()
-      self.ballx += vx
-      self.bally += vy
-      if self.ballx < 0 or self.ballx > wid:
+      self.ballx += self.vx
+      self.bally += self.vy
+      if self.ballx < 0 or self.ballx > self.wid:
         self.vx = -self.vx
-      if self.bally < 0 or self.bally > height:
+      if self.bally < 0 or self.bally > self.height:
         self.vy = -self.vy
       pygame.draw.circle(self.screen, self.col2, (self.ballx, self.bally), 10)
       pygame.display.update()
