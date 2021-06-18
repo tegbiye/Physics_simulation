@@ -1,6 +1,6 @@
 
 import pygame, sys
-import bouncing_physics
+
 pygame.init()
 
 #Colors
@@ -17,4 +17,4 @@ pygame.display.set_caption('Bouncing Ball SImulation')
 
 # main loop
 
-bouncing_ball(BLACK, WHITE, WIDTH, HEIGHT, screen)
+bouncing_physics.bouncing_ball(BLACK, WHITE, WIDTH, HEIGHT, screen)
