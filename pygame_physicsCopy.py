@@ -16,4 +16,4 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 bouncing = Bouncing(BLACK, WHITE, WIDTH, HEIGHT, screen)
 pygame.display.set_caption('Bouncing Ball SImulation')
 
-bouncing.bounce_ball()
+bouncing.bouncing_ball()
