@@ -1,6 +1,6 @@
 
 import pygame, sys
-import bouncing_physics
+
 pygame.init()
 
 #Colors
